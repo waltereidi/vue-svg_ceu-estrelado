@@ -18,7 +18,7 @@ export default {
   methods: {
     starGenerator() {
       setTimeout(async () => {
-        for (var i = 0; i < (Math.random() * 1000000); i++) {
+        for (var i = 0; i < (Math.random() * 600000); i++) {
           this.starCraft[i] = {
             params: [
               Math.random() * 10,
@@ -33,7 +33,7 @@ export default {
         }
 
         this.starGenerator();
-      }, 1000);
+      }, 3000);
     }
   },
   mounted() {
