@@ -27,7 +27,7 @@ export default {
               Math.random() * 3000
             ],
             height: (Math.random() * 20),
-            width: (Math.random() * 20)
+            width: (Math.random() * 20),
           };
 
         }
